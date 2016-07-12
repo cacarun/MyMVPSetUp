@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.mvp2.ui.view.swiperefresh.RefreshLayout
+            android:id="@id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/my_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.android.mvp2.ui.view.swiperefresh.RefreshLayout>
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+            <!--android:id="@+id/fresco_no_data"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="250dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--fresco:placeholderImage="@mipmap/icon_no_data"-->
+            <!--fresco:placeholderImageScaleType="focusCrop" />-->
+
+    </FrameLayout>
+
+</LinearLayout>

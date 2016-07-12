@@ -1,0 +1,4 @@
+<resources>
+
+    <dimen name="view_padding_16dp">16dp</dimen>
+</resources>

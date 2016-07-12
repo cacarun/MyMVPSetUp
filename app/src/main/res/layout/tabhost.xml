@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_tab"
+    android:layout_width="match_parent"
+    android:layout_height="144px"
+    android:background="@drawable/tab_top_with_shadow"
+    android:orientation="horizontal">
+
+
+
+</LinearLayout>

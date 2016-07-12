@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_tab_icon"
+            android:layout_width="122px"
+            android:layout_height="90px"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <TextView
+                android:id="@+id/tab_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="@color/selector_tab_color"
+                android:textSize="60px" />
+
+            <FrameLayout
+                android:id="@+id/fl_flag_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:gravity="center">
+
+                <com.cjw.view.textview.FlagTextView
+                    android:id="@+id/tv_tab_flag_new"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/shape_oval_red_dot"
+                    android:gravity="center" />
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tab_icon_text"
+            android:layout_width="match_parent"
+            android:layout_height="54px"
+            android:gravity="center_horizontal|top"
+            android:textColor="@color/selector_tab_color"
+            android:textSize="30px" />
+    </LinearLayout>
+
+
+</FrameLayout>

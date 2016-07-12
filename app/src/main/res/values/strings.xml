@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dagger2</string>
+
+    <string name="main_mock_data">自定义数据(测试)</string>
+    <string name="my_goto_activity">请求加载数据测试</string>
+    <string name="api_github">https://api.github.com</string>
+
+
+    <string name="fragment_list_data_no_more">没有了哦</string>
+
+    <string name="activity_main_title_homework">作业</string>
+    <string name="activity_main_title_exploration">发现</string>
+    <string name="activity_main_title_homework_screen">筛选</string>
+    <string name="activity_main_title_message">消息</string>
+    <string name="activity_main_title_my">我</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="theme_color">#ff008fff</color>
+    <!--<color name="hint_color_gray">#ff808080</color>-->
+    <color name="transparent">#00000000</color>
+
+    <!--<color name="orange">#ffFFA003</color>-->
+    <!--<color name="black">#000000</color>-->
+    <color name="white">#ffffff</color>
+    <color name="oval_red_dot_color">#FFFF0000</color>
+
+    <color name="text_not_clickable_color">#B2FFFFFF</color>
+
+    <!--<color name="bg_exit_app_color">#B2898989</color>-->
+    <!--<color name="bg_normal_app_color">#B2696969</color>-->
+
+    <!--&lt;!&ndash;SwipeRefreshLayout&ndash;&gt;-->
+    <!--<color name="swipe_one">#008fff</color>-->
+    <!--<color name="swipe_two">#39aeff</color>-->
+    <!--<color name="swipe_three">#98eded</color>-->
+    <!--<color name="swipe_four">#acfcdf</color>-->
+
+
+</resources>
