@@ -48,7 +48,7 @@ public class ReposPresenter implements ReposContract.Presenter {
         mView = null;
 
         // cancel
-        if (!subscription.isUnsubscribed()) {
+        if (subscription != null && !subscription.isUnsubscribed()) {
             subscription.unsubscribe();
         }
 

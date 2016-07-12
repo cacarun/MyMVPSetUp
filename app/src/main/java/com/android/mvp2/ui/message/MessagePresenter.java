@@ -38,7 +38,7 @@ public class MessagePresenter implements MessageContract.Presenter {
         mView = null;
 
         // cancel
-//        if (!subscription.isUnsubscribed()) {
+//        if (subscription != null && !subscription.isUnsubscribed()) {
 //            subscription.unsubscribe();
 //        }
     }

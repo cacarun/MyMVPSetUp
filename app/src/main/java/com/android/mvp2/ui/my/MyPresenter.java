@@ -100,7 +100,7 @@ public class MyPresenter implements MyContract.Presenter {
         mView = null;
 
         // cancel
-        if (!subscription.isUnsubscribed()) {
+        if (subscription != null && !subscription.isUnsubscribed()) {
             subscription.unsubscribe();
         }
     }
